@@ -9,7 +9,7 @@ path = open('example.pdf', 'rb')
 pdfReader = PyPDF2.PdfFileReader(path)
 
 # the page with which you want to start
-# this will read the page of 15th page.
+# this will read the page of 18th page.
 from_page = pdfReader.getPage(18)
 
 # extracting the text from the PDF
